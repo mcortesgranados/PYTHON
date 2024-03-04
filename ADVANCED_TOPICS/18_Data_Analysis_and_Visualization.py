@@ -16,7 +16,7 @@
 # pip install pandas
 # pip install matplotlib
 # pip install seaborn
-# pip install pygments
+# pip install pygments  
 
 import pandas as pd
 import matplotlib.pyplot as plt
