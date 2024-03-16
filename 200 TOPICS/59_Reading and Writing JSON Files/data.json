@@ -1,0 +1,16 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "city": "New York",
+    "languages": [
+        "Python",
+        "JavaScript",
+        "Java"
+    ],
+    "is_student": false,
+    "grades": {
+        "math": 90,
+        "science": 85,
+        "history": 88
+    }
+}
