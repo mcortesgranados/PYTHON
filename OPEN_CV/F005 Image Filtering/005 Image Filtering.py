@@ -1,3 +1,32 @@
+
+"""
+Image filtering is a fundamental operation in image processing used to enhance or modify an image by applying various filters
+such as blurring, sharpening, edge detection, and noise reduction. OpenCV provides functions to apply
+these filters efficiently. Here's a Python code sample demonstrating how to perform image filtering using OpenCV:
+
+In this code:
+
+
+The image is loaded using cv2.imread() from a file named 'example.jpg'.
+
+Various image filtering operations are performed using OpenCV functions:
+
+Gaussian blur (cv2.GaussianBlur()): Smoothes the image using a Gaussian filter.
+
+Median blur (cv2.medianBlur()): Computes the median of all the pixels under the kernel window and replaces the central pixel with this median value.
+
+Bilateral filter (cv2.bilateralFilter()): Applies a bilateral filter to preserve edges while reducing noise.
+
+Sobel edge detection (cv2.Sobel()): Applies Sobel edge detection along the x and y directions.
+
+Each filtered image is displayed in a separate window using cv2.imshow().
+
+Press any key to close each window and proceed to the next filter.
+
+Make sure to replace 'example.jpg' with the path to your image file. This code demonstrates some common image filtering techniques, 
+but OpenCV provides many more functions for advanced filtering operations.
+"""
+
 import cv2
 
 # File path to the image
