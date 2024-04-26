@@ -1,0 +1,27 @@
+04_Python Comments
+05_Variables in Python
+06_Data Types in Python (int, float, str, bool)
+07_Numeric Operations in Python
+08_String Operations in Python
+09_Boolean Operations in Python
+10_Basic Input and Output (input(), print())
+11_Type Conversion in Python
+12_Conditional Statements (if, elif, else)
+13_Loops (for loop, while loop)
+14_Loop Control Statements (break, continue)
+15_Lists in Python
+16_List Operations (slicing, concatenation, repetition)
+17_Python Operators (arithmetic, comparison, logical)
+18_List Methods (append(), remove(), pop())
+19_Tuples in Python
+20_Tuple Operations
+21_Dictionaries in Python
+22_Dictionary Operations (accessing, adding, updating, deleting)
+23_Sets in Python
+24_Set Operations (union, intersection, difference)
+25_Functions in Python
+26_Function Arguments (positional, keyword, default)
+27_Return Statement in Functions
+28_Scope and Lifetime of Variables
+29_Built-in Functions in Python
+33_Working with Files in Python
