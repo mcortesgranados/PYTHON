@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iterators in Python: A Comprehensive Example</title>
+</head>
+<body>
+  <h1>Iterators in Python: A Comprehensive Example</h1>
+  <p>Iterators are a fundamental concept in Python that allow you to efficiently process elements in a sequence one at a time without storing the entire sequence in memory. This is particularly useful for large datasets where loading everything at once might be impractical.</p>
+
+  <h2>1. Creating a Simple Iterator</h2>
+  <p>Python Code:</p>
+  <pre>
+class NumberIterator:
+    """
+    An iterator class that generates a sequence of numbers.
+
+    This class implements the iterator protocol by defining the `__iter__` 
+    and `__next__` methods.
+    """
+
+    def __init__(self, start, stop):
+        """
+        Initializes the iterator with a starting and stopping value.
+
+        Args:
+            start (int): The starting number of the sequence.
+            stop (int): The ending number (not inclusive) of the sequence.
+        """
+        self.current = start - 1  # Initialize before start for first __next__ call
+        self.stop = stop
+
+    def __iter__(self):
+        """
+        Returns the iterator object itself.
+
+        This method is required by the iterator protocol to allow usage in for loops.
+        """
+        return self
+
+    def __next__(self):
+        """
+        Returns the next element in the sequence.
+
+        This method is called repeatedly in a for loop until it raises a 
+        StopIteration exception, signaling the end of the sequence.
+        """
+        self.current += 1
+        if self.current < self.stop:
+            return self.current
+        else:
+            raise StopIteration
+
+# Create an iterator object
+number_iterator = NumberIterator(1, 6)
+
+# Use the iterator in a for loop
+for num in number_iterator:
+    print(num)
+  </pre>
+
+  <p>Explanation:</p>
+  <ul>
+    <li>We define a class <code>NumberIterator</code> that implements the iterator protocol.</li>
+    <li>The <code>__init__</code> method initializes the starting and stopping values for the sequence.</li>
+    <li>The <code>__iter__</code> method simply returns the <code>self</code> object, making the class iterable.</li>
+    <li>The <code>__next__</code> method is responsible for returning the next element in the sequence.</li>
+    <li>It increments the <code>current</code> value and checks if it's less than <code>stop</code>.</li>
+    <li>If it is, it returns the current value. Otherwise, it raises <code>StopIteration</code> to signal the end.</li>
+    <li>We create an instance of <code>NumberIterator</code> and iterate through it using a <code>for</code> loop.</li>
+    <li>The loop calls the <code>__next__</code> method repeatedly until <code>StopIteration</code> is raised.</li>
+  </ul>
+
+  <h2>Documentation References</h2>
+  <ul>
+    <li>Python Iterator Protocol: <a href="https://docs.python.org/3/c-api/iterator.html">https://docs.python.org/3/c-api/iterator.html</a></li>
+    <li>StopIteration Exception: <a href="https://www.w3schools.com/python/gloss_python_iterator_stop.asp">https://www.w3schools.com/python/gloss_python_iterator_stop.asp</a></li>
+  </ul>
+
+  <h2>2. Using Built-in Iterators</h2>
+  <p>Python provides built-in iterators for various data structures like lists, strings, and dictionaries. These iterators allow you to access elements one at a time.</p>
+
+  </body>
+</html>
