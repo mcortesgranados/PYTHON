@@ -1,0 +1,30 @@
+01. Classes and Objects: The basic building blocks of OOP in Python.
+02. Inheritance: Allows a class to inherit properties and methods from another class.
+03. Encapsulation: Bundling of data (attributes) and methods that operate on the data within a single unit or class.
+04. Polymorphism: Ability to use a single interface for different data types or classes.
+05. Abstraction: Hiding the implementation details of a class and showing only the necessary features to the user.
+06. Method Overriding: Redefining a method in a subclass that is already defined in the superclass.
+07. Method Overloading: Defining multiple methods in a class with the same name but different signatures.
+08. Class Methods and Static Methods: Different types of methods within a class that behave differently.
+09. Properties and Attributes: Data associated with a class or object.
+10. Constructors and Destructors: Special methods used for initializing and cleaning up objects.
+11. Composition: Combining objects of different classes to create more complex objects.
+12. Aggregation: A type of association where one object contains references to other objects.
+13. Access Modifiers: Keywords that specify the accessibility of attributes and methods in a class.
+14. Class Variables and Instance Variables: Different types of variables associated with classes and objects.
+15. Abstract Classes and Interfaces: Classes that cannot be instantiated directly and define a blueprint for other classes to follow.
+16. Method Resolution Order (MRO): The order in which methods are searched for in a class hierarchy, especially in cases of multiple inheritance.
+17. Decorators: Functions that modify the behavior of other functions or methods.
+18. Special Methods (Magic Methods): Methods with double underscores (__) that provide special functionality to classes, such as __init__, __str__, __repr__, etc.
+19. Class Attributes: Attributes that are associated with the class itself rather than with instances of the class.
+20. Instance Attributes: Attributes that are associated with instances of a class.
+21. Class Methods: Methods that are bound to the class rather than to instances of the class.
+22. Static Methods: Methods that are defined within a class but do not operate on instances or class variables.
+23. Method Chaining: Calling multiple methods of an object in a single line by chaining method calls.
+24. Inheritance Types: Single inheritance, multiple inheritance, multilevel inheritance, and hierarchical inheritance.
+25. Diamond Problem: An issue that arises in multiple inheritance when a class inherits from two classes that have a common ancestor.
+26. Method Resolution Order (MRO): The order in which base classes are searched when looking for a method in multiple inheritance.
+27. Mixins: Classes that provide methods to be inherited by other classes without being the primary parent class.
+28. Data Hiding: Restricting access to certain attributes or methods to prevent modification or misuse.
+29. Duck Typing: A programming concept that focuses on the behavior of an object rather than its type.
+30. Factory Methods: Methods used for creating objects without specifying the exact class of the object to be created.
