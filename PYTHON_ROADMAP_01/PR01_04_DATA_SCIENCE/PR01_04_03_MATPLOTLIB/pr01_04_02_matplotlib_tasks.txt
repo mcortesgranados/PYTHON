@@ -1,0 +1,30 @@
+01. Creating line plots to visualize trends or relationships between variables.
+02. Generating scatter plots to explore the correlation between two continuous variables.
+03. Building bar plots to compare categorical data or show frequency distributions.
+04. Plotting histograms to display the distribution of a single variable.
+05. Creating box plots to visualize the distribution of data and identify outliers.
+06. Generating pie charts to represent the composition of a categorical variable.
+07. Building area plots to display the magnitude of changes over time.
+08. Plotting error bars to visualize uncertainty or variability in data points.
+09. Generating heatmaps to represent the magnitude of values in a matrix using colors.
+10. Creating contour plots to display the 3D surface in 2D space with contour lines.
+11. Building quiver plots to visualize vector fields using arrows.
+12. Plotting polar plots to represent data in polar coordinates.
+13. Generating scatter plots with different marker sizes and colors for each data point.
+14. Creating filled plots to represent the area between two curves.
+15. Plotting 3D surface plots to visualize functions of two variables in 3D space.
+16. Building stacked bar plots to compare the proportion of different categories.
+17. Generating stem plots to visualize discrete data points.
+18. Creating step plots to visualize stepwise changes in data.
+19. Plotting hexbin plots to represent the density of points in hexagonal bins.
+20. Generating violin plots to visualize the distribution of data like box plots.
+21. Creating radar charts to display multivariate data in a circular layout.
+22. Plotting stream plots to visualize 2D vector fields using streamlines.
+23. Generating scatter plots with regression lines to visualize linear relationships.
+24. Creating annotated plots with text annotations and arrows.
+25. Plotting waterfall charts to visualize cumulative effect of sequentially introduced positive or negative values.
+26. Generating barh plots to create horizontal bar plots.
+27. Creating spider plots (radar charts) to display multivariate data on a two-dimensional chart of three or more quantitative variables.
+28. Plotting candlestick charts to visualize stock price data.
+29. Generating images with imshow to display 2D data as an image.
+30. Creating animated plots to visualize dynamic data or processes over time.

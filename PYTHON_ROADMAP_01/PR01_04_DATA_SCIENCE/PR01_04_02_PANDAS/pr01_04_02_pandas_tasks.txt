@@ -1,0 +1,30 @@
+01. Loading and reading data from various file formats like CSV, Excel, SQL, JSON, etc.
+02. Exploring and inspecting data using functions like head(), tail(), info(), describe(), etc.
+03. Selecting and indexing data based on labels or positions using .loc[], .iloc[], etc.
+04. Filtering and querying data based on conditions using boolean indexing or query methods.
+05. Handling missing or null values using functions like isnull(), fillna(), dropna(), etc.
+06. Cleaning and preprocessing data by removing duplicates, outliers, or irrelevant columns.
+07. Combining and merging datasets using methods like concat(), merge(), join(), etc.
+08. Reshaping and pivoting data using functions like pivot_table(), melt(), stack(), unstack(), etc.
+09. Grouping and aggregating data using groupby() and aggregate functions like sum(), mean(), count(), etc.
+10. Applying custom functions to data using apply() or applymap() methods.
+11. Creating new columns or transforming existing columns based on calculations or conditions.
+12. Handling datetime data by converting, parsing, or extracting components.
+13. Visualizing data using built-in plotting functionality or integration with libraries like Matplotlib or Seaborn.
+14. Performing statistical analysis and hypothesis testing using functions like corr(), cov(), ttest_ind(), etc.
+15. Time series analysis and manipulation, including resampling, rolling windows, etc.
+16. Working with categorical data, including encoding, decoding, and grouping.
+17. Handling multi-indexing and hierarchical data structures.
+18. Exporting data to various file formats like CSV, Excel, SQL, JSON, etc.
+19. Transforming data types and formats using functions like astype(), to_numeric(), to_datetime(), etc.
+20. Performing data normalization, scaling, or standardization.
+21. Handling large datasets using memory optimization techniques like chunking or using dtype parameter.
+22. Interacting with databases by reading and writing data from/to SQL databases using read_sql() and to_sql() functions.
+23. Handling text data by applying string methods and regular expressions.
+24. Working with geographical data by integrating with GIS libraries like Geopandas.
+25. Conducting sentiment analysis or text mining tasks using NLP libraries like NLTK or spaCy.
+26. Handling outliers and anomalies detection using statistical methods or machine learning algorithms.
+27. Performing feature engineering by creating new features from existing ones.
+28. Implementing machine learning models by preparing data for training and testing.
+29. Conducting exploratory data analysis (EDA) by generating summary statistics, distributions, and visualizations.
+30. Building pipelines for data preprocessing, feature engineering, and model evaluation using pandas and scikit-learn.

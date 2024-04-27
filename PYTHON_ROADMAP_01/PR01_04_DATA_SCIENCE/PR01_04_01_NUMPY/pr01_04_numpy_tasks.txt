@@ -4,19 +4,19 @@ Certainly! Here are 20 different tasks that can be accomplished using NumPy:
 02. Array Manipulation: Reshape arrays (numpy.reshape()), concatenate arrays (numpy.concatenate()), split arrays (numpy.split()), stack arrays (numpy.stack()), transpose arrays (numpy.transpose()), etc.
 03. Mathematical Operations: Perform element-wise operations like addition, subtraction, multiplication, and division (+, -, *, /), as well as trigonometric functions (numpy.sin(), numpy.cos(), numpy.tan()), exponential and logarithmic functions (numpy.exp(), numpy.log()), etc.
 04. Linear Algebra: Perform linear algebra operations like matrix multiplication (numpy.dot()), matrix decomposition (numpy.linalg.inv(), numpy.linalg.det(), numpy.linalg.eig()), solving linear equations (numpy.linalg.solve()), etc.
-Random Number Generation: Generate random numbers from different probability distributions using functions like numpy.random.rand(), numpy.random.randn(), numpy.random.binomial(), etc.
-Statistical Operations: Calculate various statistics like mean (numpy.mean()), median (numpy.median()), standard deviation (numpy.std()), variance (numpy.var()), correlation (numpy.corrcoef()), etc.
-Array Indexing and Slicing: Access elements and subarrays of arrays using basic indexing, slicing, boolean indexing, fancy indexing, etc.
-Array Broadcasting: Perform operations on arrays of different shapes by automatically aligning dimensions using broadcasting.
-File Input/Output: Read data from files (numpy.loadtxt(), numpy.genfromtxt()) and save data to files (numpy.savetxt(), numpy.save()).
-Image Processing: Perform basic image processing tasks like reading, manipulating, and saving images using libraries like OpenCV, PIL, or Matplotlib.
-FFT (Fast Fourier Transform): Perform FFT and inverse FFT on arrays using functions like numpy.fft.fft() and numpy.fft.ifft().
-Polynomial Operations: Perform polynomial operations like polynomial addition, subtraction, multiplication, and division using functions like numpy.polyadd(), numpy.polysub(), numpy.polymul(), numpy.polydiv().
-Interpolation: Interpolate data using functions like numpy.interp() and numpy.polyfit().
-Sorting: Sort arrays along specified axes using functions like numpy.sort() and numpy.argsort().
-Set Operations: Perform set operations like union, intersection, difference, etc., using functions like numpy.union1d(), numpy.intersect1d(), numpy.setdiff1d().
-Masked Arrays: Work with masked arrays to handle missing or invalid data using functions like numpy.ma.masked_array().
-Sparse Arrays: Work with sparse arrays to efficiently store and manipulate large arrays with mostly zero values using functions like scipy.sparse.csr_matrix(), scipy.sparse.csc_matrix().
-Polynomial Fitting: Fit polynomials to data points using functions like numpy.polyfit().
-Quantization: Quantize data by mapping it to a finite set of values using functions like numpy.digitize().
-Datetime Operations: Perform operations on datetime arrays like addition, subtraction, comparison, etc., using functions like numpy.datetime64(), numpy.timedelta64().
+05. Random Number Generation: Generate random numbers from different probability distributions using functions like numpy.random.rand(), numpy.random.randn(), numpy.random.binomial(), etc.
+06. Statistical Operations: Calculate various statistics like mean (numpy.mean()), median (numpy.median()), standard deviation (numpy.std()), variance (numpy.var()), correlation (numpy.corrcoef()), etc.
+07. Array Indexing and Slicing: Access elements and subarrays of arrays using basic indexing, slicing, boolean indexing, fancy indexing, etc.
+08. Array Broadcasting: Perform operations on arrays of different shapes by automatically aligning dimensions using broadcasting.
+09. File Input/Output: Read data from files (numpy.loadtxt(), numpy.genfromtxt()) and save data to files (numpy.savetxt(), numpy.save()).
+10. Image Processing: Perform basic image processing tasks like reading, manipulating, and saving images using libraries like OpenCV, PIL, or Matplotlib.
+11. FFT (Fast Fourier Transform): Perform FFT and inverse FFT on arrays using functions like numpy.fft.fft() and numpy.fft.ifft().
+12. Polynomial Operations: Perform polynomial operations like polynomial addition, subtraction, multiplication, and division using functions like numpy.polyadd(), numpy.polysub(), numpy.polymul(), numpy.polydiv().
+13. Interpolation: Interpolate data using functions like numpy.interp() and numpy.polyfit().
+14. Sorting: Sort arrays along specified axes using functions like numpy.sort() and numpy.argsort().
+15. Set Operations: Perform set operations like union, intersection, difference, etc., using functions like numpy.union1d(), numpy.intersect1d(), numpy.setdiff1d().
+16. Masked Arrays: Work with masked arrays to handle missing or invalid data using functions like numpy.ma.masked_array().
+17. Sparse Arrays: Work with sparse arrays to efficiently store and manipulate large arrays with mostly zero values using functions like scipy.sparse.csr_matrix(), scipy.sparse.csc_matrix().
+18. Polynomial Fitting: Fit polynomials to data points using functions like numpy.polyfit().
+19. Quantization: Quantize data by mapping it to a finite set of values using functions like numpy.digitize().
+20. Datetime Operations: Perform operations on datetime arrays like addition, subtraction, comparison, etc., using functions like numpy.datetime64(), numpy.timedelta64().
