@@ -1,0 +1,30 @@
+01. Regression: Predicting continuous target variables.
+02. Classification: Predicting categorical target variables.
+03. Clustering: Grouping similar data points together based on features.
+04. Dimensionality Reduction: Reducing the number of features while preserving important information.
+05. Anomaly Detection: Identifying outliers or unusual patterns in data.
+06. Feature Selection: Selecting the most relevant features for modeling.
+07. Model Evaluation: Assessing the performance of machine learning models using metrics like accuracy, precision, recall, F1-score, etc.
+08. Hyperparameter Tuning: Optimizing model parameters to improve performance.
+09. Cross-Validation: Evaluating model performance using different subsets of data.
+10. Ensemble Learning: Combining multiple models to improve predictive performance.
+11. Imbalanced Data Handling: Dealing with datasets where one class is significantly more prevalent than others.
+12. Text Classification: Categorizing text documents into predefined classes or categories.
+13. Time Series Forecasting: Predicting future values based on historical time-series data.
+14. Image Classification: Categorizing images into predefined classes or categories.
+15. Natural Language Processing (NLP): Analyzing and processing text data.
+16. Recommender Systems: Suggesting items or content based on user preferences.
+17. Sentiment Analysis: Determining the sentiment or opinion expressed in text data.
+18. Model Interpretation: Understanding and interpreting the decisions made by machine learning models.
+19. Transfer Learning: Leveraging knowledge from pre-trained models for new tasks.
+20. Semi-Supervised Learning: Training models using a combination of labeled and unlabeled data.
+21. Unsupervised Learning: Discovering patterns or structures in data without labeled outcomes.
+22. Density Estimation: Estimating the probability density function of a random variable.
+23. Outlier Detection: Identifying unusual observations that deviate from normal behavior.
+24. Manifold Learning: Visualizing and understanding high-dimensional data in lower-dimensional space.
+25. Bias-Variance Tradeoff Analysis: Balancing model complexity and generalization performance.
+26. Grid Search: Exhaustively searching for the best combination of hyperparameters for a model.
+27. Pipeline Construction: Building end-to-end workflows for data preprocessing, feature engineering, and model training.
+28. Model Persistence: Saving trained models to disk for later use.
+29. Data Preprocessing: Transforming raw data into a format suitable for modeling.
+30. Handling Missing Data: Dealing with missing values in datasets.

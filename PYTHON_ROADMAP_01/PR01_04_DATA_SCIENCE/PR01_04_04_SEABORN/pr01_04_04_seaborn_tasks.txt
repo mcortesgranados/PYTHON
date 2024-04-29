@@ -4,27 +4,27 @@
 04. Plotting histograms to display the distribution of a single variable.
 05. Creating box plots to visualize the distribution of data and identify outliers.
 06. Generating violin plots to visualize the distribution of data similar to box plots but with a kernel density plot.
-Building strip plots to visualize individual data points along with a scatter plot-like representation.
-Plotting swarm plots to visualize individual data points without overlapping.
-Generating pair plots to explore pairwise relationships between variables in a dataset.
-Creating joint plots to visualize the joint distribution between two variables along with their marginal distributions.
-Building rug plots to visualize the distribution of data points along a single axis.
-Plotting KDE (Kernel Density Estimate) plots to estimate the probability density function of a continuous variable.
-Generating heatmaps to represent the magnitude of values in a matrix using colors.
-Creating clustermaps to visualize hierarchical clustering of variables and observations.
-Building factor plots to visualize categorical variables across one or more factors.
-Plotting count plots to display the count of observations in each category of a categorical variable.
-Generating bar plots with confidence intervals to compare categorical data.
-Creating point plots to compare values of one variable across different levels of another variable.
-Plotting regression plots to visualize the relationship between two continuous variables along with a regression line.
-Generating residplot to visualize the residuals of a linear regression model.
-Creating lmplot to visualize the relationship between two continuous variables with options for grouping by additional categorical variables.
-Plotting pairgrid to visualize pairwise relationships in a dataset for multiple variables.
-Generating FacetGrid to create a grid of subplots based on one or more categorical variables.
-Creating distplot to visualize the distribution of a single variable along with a KDE plot and histogram.
-Plotting violin plots with hue for additional categorical grouping.
-Generating point plots with hue for additional categorical grouping.
-Creating bar plots with hue for additional categorical grouping.
-Plotting box plots with hue for additional categorical grouping.
-Generating count plots with hue for additional categorical grouping.
-Creating catplot to combine various categorical plots into a single figure.
+07. Building strip plots to visualize individual data points along with a scatter plot-like representation.
+08. Plotting swarm plots to visualize individual data points without overlapping.
+09. Generating pair plots to explore pairwise relationships between variables in a dataset.
+010. Creating joint plots to visualize the joint distribution between two variables along with their marginal distributions.
+011. Building rug plots to visualize the distribution of data points along a single axis.
+012. Plotting KDE (Kernel Density Estimate) plots to estimate the probability density function of a continuous variable.
+013. Generating heatmaps to represent the magnitude of values in a matrix using colors.
+014. Creating clustermaps to visualize hierarchical clustering of variables and observations.
+015. Building factor plots to visualize categorical variables across one or more factors.
+016. Plotting count plots to display the count of observations in each category of a categorical variable.
+017. Generating bar plots with confidence intervals to compare categorical data.
+018. Creating point plots to compare values of one variable across different levels of another variable.
+019. Plotting regression plots to visualize the relationship between two continuous variables along with a regression line.
+020. Generating residplot to visualize the residuals of a linear regression model.
+021. Creating lmplot to visualize the relationship between two continuous variables with options for grouping by additional categorical variables.
+022. Plotting pairgrid to visualize pairwise relationships in a dataset for multiple variables.
+023. Generating FacetGrid to create a grid of subplots based on one or more categorical variables.
+024. Creating distplot to visualize the distribution of a single variable along with a KDE plot and histogram.
+025. Plotting violin plots with hue for additional categorical grouping.
+026. Generating point plots with hue for additional categorical grouping.
+027. Creating bar plots with hue for additional categorical grouping.
+028. Plotting box plots with hue for additional categorical grouping.
+029. Generating count plots with hue for additional categorical grouping.
+030. Creating catplot to combine various categorical plots into a single figure.
