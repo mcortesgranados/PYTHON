@@ -6,6 +6,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 # Sample data (x-axis and y-axis values)
 x = np.linspace(0.0, 5.0, 100)  # Creates 100 points between 0 and 5
 y = np.sin(x)  # Creates sine wave data points for x values
