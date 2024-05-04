@@ -1,0 +1,31 @@
+01. Creating a Basic Django App: Set up a basic Django project and create an app.
+02. Defining Models: Define database models for your Django app.
+03. Creating Views: Implement views to handle HTTP requests and responses.
+04. Defining URLs: Define URL patterns to map views to URLs.
+05. Template Rendering: Render HTML templates using Django's template engine.
+06. Passing Data to Templates: Pass data from views to templates.
+07. Static Files Handling: Serve static files such as CSS and JavaScript.
+08. Admin Panel Customization: Customize the Django admin panel.
+09. User Authentication: Implement user authentication and registration.
+10. User Authorization: Implement user authorization and permissions.
+11. Database Migrations: Perform database migrations to manage changes in models.
+12. Custom Management Commands: Create custom management commands for Django.
+13. Sending Emails: Send emails from your Django application.
+14. File Uploads: Handle file uploads in Django.
+15. Django Forms: Create and handle forms in Django.
+16. CRUD Operations: Perform CRUD (Create, Read, Update, Delete) operations on database models.
+17. Testing: Write and run tests for your Django application.
+18. Internationalization: Implement internationalization and localization in Django.
+19. Middleware: Use middleware in Django for request/response processing.
+20. Logging: Configure and use logging in Django for debugging and monitoring.
+21. Django Signals: Use signals to perform actions on certain events in Django.
+22. Custom Template Tags and Filters: Create custom template tags and filters for Django templates.
+23. Django REST Framework Integration: Integrate Django with Django REST Framework for building RESTful APIs.
+24. Pagination: Implement pagination for large sets of data in Django views.
+25. Caching: Use caching in Django to improve performance.
+26. Async Views: Create asynchronous views using Django's async capabilities.
+27. Django Channels: Use Django Channels for handling WebSockets and real-time communication.
+28. Django Middleware: Write custom middleware to modify request or response objects.
+29. Django Forms with ModelForms: Create forms based on Django models using ModelForms.
+30. Custom Error Handling: Implement custom error handling and error pages in Django.
+
