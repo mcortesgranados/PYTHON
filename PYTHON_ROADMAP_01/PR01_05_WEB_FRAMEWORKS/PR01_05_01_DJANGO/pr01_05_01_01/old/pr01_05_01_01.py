@@ -1,6 +1,14 @@
 """
 01. Creating a Basic Django App: Set up a basic Django project and create an app.
 
+Step 2: Create a Django project             =>  django-admin startproject myproject
+Step 3: Navigate into the project directory =>  cd myproject
+Step 4: Create a Django app                 =>  python manage.py startapp myapp
+Step 5: Define models (optional), in models.py
+Step 6: Define views, in views.py
+Step 7: Define URLs, urls.py
+Step 8: Register the app
+
 """
 
 # Step 1: Install Django if you haven't already

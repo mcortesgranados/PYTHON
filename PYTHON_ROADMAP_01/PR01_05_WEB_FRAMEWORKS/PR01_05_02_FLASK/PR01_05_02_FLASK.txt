@@ -1,0 +1,30 @@
+01. Basic Hello World: Start with a simple Flask app that returns "Hello, World!".
+02. Routing: Define multiple routes for different pages.
+03. Passing URL Parameters: Capture parameters from the URL.
+04. HTTP Methods: Handle different HTTP methods.
+05. Templates: Render HTML templates.
+06. Static Files: Serve static files like CSS and JavaScript.
+07. Redirects and Errors: Redirect users or handle errors gracefully.
+08. Cookies: Set and retrieve cookies.
+09. Sessions: Manage user sessions.
+10. File Uploads: Accept file uploads from users.
+11. Database Integration: Interact with databases.
+12. API Endpoints: Build RESTful APIs.
+13. Authentication: Implement user authentication.
+14. Authorization: Restrict access to certain routes based on user roles.
+15. Background Tasks: Execute background tasks.
+16. Websockets: Implement Websockets for real-time communication.
+17. Caching: Cache expensive computations or database queries.
+18. API Rate Limiting: Limit API requests per user.
+19. Unit Testing: Write unit tests for your Flask application.
+20. Logging: Log events and errors.
+21. Localization: Support multiple languages.
+22. OAuth Integration: Integrate OAuth for third-party authentication.
+23. Email Sending: Send emails from your Flask application.
+24. PDF Generation: Generate PDF documents.
+25. RESTful Forms: Create forms using Flask-WTF.
+26. Background Jobs: Run background jobs with Flask-RQ2.
+27. Real-time Data Visualization: Use Flask-SocketIO for real-time data visualization.
+28. Admin Panel Integration: Integrate Flask-Admin for admin panel functionalities.
+29. Google Maps Integration: Integrate Google Maps with Flask.
+30. GraphQL Integration: Integrate GraphQL with Flask using Graphene.

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Example</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js" integrity="sha384-z3vtzIZveJCbLk4+zrtnn1+yFM4urNCzDvOo1Hj7oTH1jGcTw/8c2FAm0RMhATek" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        // Connect to the WebSocket server
+        var socket = io.connect('http://' + document.domain + ':' + location.port);
+
+        // Function to send a message to the server
+        function sendMessage() {
+            var message = document.getElementById('message_input').value;
+            socket.send(message);
+            document.getElementById('message_input').value = '';
+        }
+
+        // Function to handle incoming messages
+        socket.on('message', function(message) {
+            var messageList = document.getElementById('message_list');
+            var newMessage = document.createElement('li');
+            newMessage.appendChild(document.createTextNode(message));
+            messageList.appendChild(newMessage);
+        });
+    </script>
+</head>
+<body>
+    <h1>WebSocket Example</h1>
+    <ul id="message_list"></ul>
+    <input type="text" id="message_input" placeholder="Enter message">
+    <button onclick="sendMessage()">Send</button>
+</body>
+</html>
