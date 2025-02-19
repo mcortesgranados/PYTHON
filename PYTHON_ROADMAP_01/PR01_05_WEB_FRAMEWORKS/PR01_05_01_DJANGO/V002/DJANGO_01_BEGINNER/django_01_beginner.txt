@@ -1,0 +1,51 @@
+🔰 Beginner Django Topics (1-50)
+Introduction to Django
+Installing Django
+Understanding Django Architecture (MTV - Model, Template, View)
+Creating a Django Project
+Creating a Django App
+Understanding settings.py
+Running the Django Development Server
+Django Folder Structure
+Understanding urls.py
+Creating and Managing Views (views.py)
+Using Django's HttpResponse and JsonResponse
+Rendering HTML Templates (render())
+Understanding Django Templates (.html files)
+Template Variables and Context
+Template Filters and Tags
+Template Inheritance and extends
+Static Files (CSS, JS, Images) in Django
+Django models.py and ORM (Object-Relational Mapping)
+Creating Database Models
+Running Migrations (makemigrations & migrate)
+Registering Models in admin.py
+Using Django Admin Panel
+Adding & Editing Data in Django Admin
+Django Forms (forms.py)
+Handling Form Submissions
+Validation in Django Forms
+Django URL Routing and path()
+Using re_path() for Regex-based URLs
+Querying the Database with Django ORM (filter(), get(), all())
+Database Relationships (ForeignKey, OneToOneField, ManyToManyField)
+Model Methods and Properties
+Model Meta Class (class Meta)
+Model Managers (objects.filter(), objects.create())
+Handling GET and POST Requests
+Redirects and HttpResponseRedirect
+Working with Django Shell (python manage.py shell)
+Django Middleware Overview
+User Authentication System
+Creating Login and Logout Functionality
+Using Django’s Built-in User Model
+User Registration & Signup
+Password Hashing and Security
+Password Reset & Email Authentication
+Sessions and Cookies in Django
+Django Messages Framework (messages.success(), messages.error())
+Working with Environment Variables (.env Files)
+Deploying Static Files with collectstatic
+Debugging Django Applications
+Installing Third-Party Packages (pip install package-name)
+Using Django Debug Toolbar for Performance Analysis

@@ -1,0 +1,101 @@
+🔹 Intermediate Django Topics (51-150)
+Customizing Django Admin Panel
+Django Admin Actions and Filters
+Handling File Uploads (Images, PDFs, etc.)
+Image Processing with Pillow
+Using Django Forms with File Uploads
+Custom User Model (AbstractUser, AbstractBaseUser)
+Profile Management System
+Sending Emails in Django (send_mail)
+Custom Error Pages (404, 500, etc.)
+Django Signals (pre_save, post_save)
+Creating and Managing Background Tasks
+Django Celery for Asynchronous Tasks
+Caching in Django (django-redis, Memcached)
+Query Optimization (select_related, prefetch_related)
+Managing Large Databases in Django
+Django Pagination (Paginator)
+Search Functionality (Q Object & Full-Text Search)
+REST API Basics in Django
+Django REST Framework (DRF) Overview
+Creating API Endpoints with DRF
+Serializers in DRF (ModelSerializer, Serializer)
+API View (APIView vs ViewSet)
+Authentication in APIs (TokenAuthentication, JWT)
+Permissions in DRF (IsAuthenticated, IsAdminUser)
+Using Django Filters in APIs
+Versioning in APIs
+Rate Limiting and Throttling in APIs
+Generating API Documentation (drf-yasg, Swagger)
+API Testing with Postman
+WebSockets & Real-time Django Apps (Django Channels)
+Building a Chat Application with Django Channels
+Implementing Webhooks in Django
+Using Django with GraphQL (graphene-django)
+Deploying Django Applications (gunicorn, nginx)
+Setting Up a Production Server (AWS, DigitalOcean)
+Running Django with Docker (Dockerfile, docker-compose.yml)
+CI/CD with Django (GitHub Actions, GitLab CI)
+Unit Testing in Django (unittest, pytest)
+Integration Testing in Django
+Using Factories for Testing (Factory Boy)
+Generating Fake Data (Faker)
+Securing Django Applications (CSRF, XSS, SQL Injection Prevention)
+Implementing Role-Based Access Control (RBAC)
+Two-Factor Authentication (2FA)
+Django Performance Optimization (django-silk, django-debug-toolbar)
+Caching Strategies (Redis, Memcached)
+Logging and Monitoring in Django (Sentry, New Relic)
+Django Multitenancy (Shared Database, Separate Database Approach)
+Database Sharding in Django
+Django ORM Transactions (atomic)
+Django Signals Best Practices
+Django Celery with Redis for Task Queues
+Django and Elasticsearch for Full-Text Search
+Generating PDFs in Django (ReportLab, WeasyPrint)
+Exporting Data to Excel (pandas, openpyxl)
+Implementing Web Scraping with Django (BeautifulSoup, Scrapy)
+Building a Multi-Language Website (i18n, gettext)
+Building a Multi-Tenant Django Application
+Implementing Subdomains in Django
+Implementing File Storage with AWS S3
+Implementing GraphQL APIs with Django
+Setting Up a Microservices Architecture with Django
+Using Django with Celery Beat for Scheduled Tasks
+Implementing OAuth2 Authentication
+Handling Payments with Django (Stripe, PayPal)
+Advanced Custom Django Middleware
+Writing Reusable Django Apps
+Django Extensions and Management Commands
+Django Database Migrations Best Practices
+Event-Driven Architecture in Django
+Working with Django and WebRTC
+Developing Django Plugins
+Connecting Django with Third-Party APIs
+Implementing Custom Logging in Django
+Working with Django and Machine Learning (scikit-learn, TensorFlow)
+Automating Deployment with Ansible & Django
+Building a Django GraphQL Backend for Mobile Apps
+CI/CD Pipelines with Jenkins and Django
+Advanced Django ORM Query Optimization
+Setting Up a Django Project with Kubernetes
+Implementing Stripe Subscription Billing in Django
+Implementing Dynamic Forms in Django
+Django Object Permissions (django-guardian)
+Django for Enterprise Applications
+Django for IoT Applications
+Django and Event-Driven Messaging (Kafka, RabbitMQ)
+Django as a Backend for React/Vue.js
+Advanced Django Custom Managers
+Django with PostgreSQL Full-Text Search
+Handling GDPR Compliance in Django
+Django and Blockchain Integration
+Serverless Django Applications (AWS Lambda)
+Django and CI/CD with Terraform
+Implementing Django Admin Dashboards
+Implementing Multi-Factor Authentication
+AI-Powered Django Applications
+Django for Scientific Computing (NumPy, SciPy)
+Using Django with Big Data Technologies (Hadoop, Spark)
+Migrating a Django App from Monolithic to Microservices
+Django Debugging & Profiling Techniques
