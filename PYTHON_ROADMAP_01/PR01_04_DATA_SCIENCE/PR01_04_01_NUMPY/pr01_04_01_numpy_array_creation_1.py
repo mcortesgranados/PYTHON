@@ -1,5 +1,24 @@
 import numpy as np
 
+""""
+📦 import numpy as np — You bring in NumPy and give it the nickname np to make typing faster.
+
+📋 np.array() — Turns a regular Python list into a NumPy array, which is better for calculations.
+
+⚪ np.zeros() — Creates an array full of zeros, perfect for starting from scratch.
+
+➕ np.ones() — Makes an array filled with ones, ready to use.
+
+🔢 np.full() — Fills an array with any number you want (like a 2x2 array full of 7s).
+
+📈 np.arange() — Makes an array with numbers in a range, like 0, 2, 4, 6... easy sequences.
+
+🛤️ np.linspace() — Creates an array with numbers evenly spaced between two points, super smooth.
+
+🚀 Overall, these tools make it super quick and easy to build arrays for anything math or data related!
+
+""""
+
 # Example: Array Creation with NumPy
 
 # 1. Creating arrays from Python lists using numpy.array()
